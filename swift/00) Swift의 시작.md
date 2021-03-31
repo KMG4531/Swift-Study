@@ -1,13 +1,3 @@
----
-layout: single
-title: "Swift의 시작"
-
-# toc: false
-# toc_sticky: false
-
-categories: Swift
-last_modified_at: 2021-03-21
----
 안녕하세요.
 
 저는 현재 ios 앱 개발에 관심이 생겨 Swift 언어부터 공부하게 된 강민구입니다.
