@@ -1,0 +1,36 @@
+## 구조체
+
+Swift의 구조체는 타입을 정의하는 것이기 때문에 Upper Camel Case를 사용합니다.
+
+struct라는 키워드를 사용합니다.
+
+
+*정의*
+```swift
+struct 이름 {
+	구현부
+}
+```
+
+Sample이라는 구조체와 프로퍼티 및 메서드를 예시를 통해 알아봅시다.
+```swift
+struct Sample {
+	var mutableProperty: Int = 100		// 가변 프로퍼티
+    	let immutableProperty: Int = 100	// 불변 프로퍼티
+        
+        static var typeProperty: Int = 100	// 타입 프로퍼티
+        
+        // 인스턴스 메서드
+        func instanceMethod()	{
+        	print("instance method")
+        }
+        
+        // 타입 메서드
+        static func typeMethod()	{
+        	print("type method")
+        }
+}
+```
+프로퍼티와 메서드는 어떤 타입안에 들어있는 것을 프로퍼티라고 하고, 
+
+타입 안에 들어가 있는 함수를 메서드라고 생각하시면 됩니다.
