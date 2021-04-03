@@ -9,6 +9,7 @@ class는 참조 타입입니다.
 Swift의 class는 다중 상속이 되지 않습니다.
 
 <정의>
+
 ```swift
 // class 이름 {
 //	구현부
@@ -76,7 +77,7 @@ class는 구조체와 다르게 mutable과 immutable을 let과 var로 사용한 
 구조체와 마찬가지로 타입 프로퍼티와 메서드를 사용하는 것도 크게 다를게 없습니다.
 ```swift
 Sample.typeProperty = 300
-Sample.typeMethod()	// type method
+Sample.typeMethod()	 // type method
 
 //mutableReference.typeProperty = 400
 //mutableReference.typeMethod()
