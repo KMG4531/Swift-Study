@@ -151,3 +151,32 @@ case가 없으면 생성이 되지 않을 수도 있기 때문에 nil이 나올 
 
 옵셔널 타입으로 다시 정의해 주고 if let으로 안전하게 꺼내서 사용 가능합니다.
 
+## 📌 메서드
+Swift의 열거형은 메서드도 추가해줄 수 있습니다.
+
+```swift
+enum Month{
+	case dec, jan, feb
+    case mar, apr, may
+    case jun, jul, aug
+    case sep, oct, nov
+    
+    func printMessage() {
+    	switch self {
+        case .mar, .apr, .may:
+        	print("봄")
+        case .jun, .jul, .aug:
+        	print("여름")
+        case .sep, .oct, .nov:
+        	print("가을")
+        case .dec, .jan, .feb:
+        	print("겨울")
+        }
+    }
+}
+
+Month.mar.printMessage()
+```
+
+
+
