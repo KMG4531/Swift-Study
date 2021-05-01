@@ -33,7 +33,6 @@ day = .tue	// 위에 처럼 나타내주고 축약하여 나타내도 됨 (= 케
 
 print(day)
 
-
 switch day {	// switch 구문에 열거형 타입 사용가능.
     case .mon, .tue, .wed, .thu:
     	print("평일입니다")
@@ -63,7 +62,6 @@ case를 한 개씩 만들어줘도 되고, 아니면 연속해서 만들어줘�
 열거형에서 Switch 구문에서 사용법은 switch 열거형변수이름 {...}을 해주고 case 부분에서는 .열거형케이스이름을 써주면 됩니다.
 
 위와 같이 열거형에서 사용한 case를 사용하여 줬다면 상관 없겠지만 case가 없는 경우에는 default를 꼭 정의해 줘야 합니다.
-
 
 Switch 구문 사용법은 [05) Swift 조건문, 반복문](https://velog.io/@jkang4531/05-Swift-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%EB%B0%98%EB%B3%B5%EB%AC%B8)에서 설명하였습니다.
 
