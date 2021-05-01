@@ -63,7 +63,7 @@ case를 한 개씩 만들어줘도 되고, 아니면 연속해서 만들어줘�
 
 위와 같이 열거형에서 사용한 case를 사용하여 줬다면 상관 없겠지만 case가 없는 경우에는 default를 꼭 정의해 줘야 합니다.
 
-Switch 구문 사용법은 [05) Swift 조건문, 반복문](https://velog.io/@jkang4531/05-Swift-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%EB%B0%98%EB%B3%B5%EB%AC%B8)에서 설명하였습니다.
+Switch 구문 사용법은 [05) Swift 조건문, 반복문](https://github.com/KMG4531/Swift-Study/blob/main/swift/05)%20Swift%20%EC%A1%B0%EA%B1%B4%EB%AC%B8%2C%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)에서 설명하였습니다.
 
 
 ## 📌 원시 값
