@@ -173,6 +173,3 @@ enum Month{
 
 Month.mar.printMessage()
 ```
-
-
-
