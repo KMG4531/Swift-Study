@@ -100,3 +100,23 @@ enum Fruit: Int {
 print("Fruit.peach.rawValue == \(Fruit.peach.rawValue)")
 // Fruit.peach.rawValue == 2
 ```
+
+
+정수 타입 뿐만 아니라 다른 타입 사용
+
+Hashable 프로토콜을 따르는 모든 타입이 열거형의 원시 값으 타입으로 지정될 수 있습니다.
+
+```swift
+enum School: String {
+    case elementary = "초등"
+    case middle = "중등"
+    case high = "고등"
+    case university
+}
+
+print("School.middle.rawValue == \(School.middle.rawValue)")
+// School.middle.rawValue == 중등
+
+print("School.university.rawValue == \(School.university.rawValue)")
+// School.university.rawValue == university
+```
