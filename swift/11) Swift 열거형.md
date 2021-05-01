@@ -33,3 +33,14 @@ var day: Weekday = Weekday.mon	// 열거형 case를 나타내는 방법 (= 열�
 day = .tue	// 위에 처럼 나타내주고 축약하여 나타내도 됨 (= 케이스이름)
 
 print(day)
+
+
+switch day {	// switch 구문에 열거형 타입 사용가능.
+    case .mon, .tue, .wed, .thu:
+    	print("평일입니다")
+    case Weekday.fri:
+    	print("불금 파티")
+    case .sat, .sun:
+    	print("주말")
+}
+```
