@@ -66,7 +66,6 @@ case를 한 개씩 만들어줘도 되고, 아니면 연속해서 만들어줘�
 Switch 구문 사용법은 [05) Swift 조건문, 반복문](https://velog.io/@jkang4531/05-Swift-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%EB%B0%98%EB%B3%B5%EB%AC%B8)에서 설명하였습니다.
 
 
-
 ## 📌 원시 값
 
 열거형의 각 항목은 자체로도 하나의 값이지만 항목의 원시 값도 가질 수 있습니다.
@@ -96,7 +95,6 @@ enum Fruit: Int {
 print("Fruit.peach.rawValue == \(Fruit.peach.rawValue)")
 // Fruit.peach.rawValue == 2
 ```
-
 
 정수 타입 뿐만 아니라 다른 타입 사용
 
