@@ -120,3 +120,21 @@ print("School.middle.rawValue == \(School.middle.rawValue)")
 print("School.university.rawValue == \(School.university.rawValue)")
 // School.university.rawValue == university
 ```
+
+## 📌 원시 값 초기화
+
+원시 값은 rawValue를 통해 초기화 할 수 있습니다.
+
+rawValue가 case에 해당하지 않을 수 있으므로 rawValue를 통해 초기화 한 인스턴스는 옵셔널 타입입니다.
+
+위에서 정수 값 사용 예시로 코드를 사용하겠습니다.
+```swift
+// let apple: Fruit = Fruit(rawValue: 0)
+let apple: Fruit? = Fruit(rawValue: 0)
+
+if let orange: Fruit = Fruit(rawValue: 5) {
+	print("rawValue 5에 해당하는 케이스는 \(orange)입니다")
+} else {
+	print("rawValue 5에 해당하는 케이스가 없습니다")
+} // rawValue 5에 해당하는 케이스가 없습니다.
+```
