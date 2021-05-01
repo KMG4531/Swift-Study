@@ -84,3 +84,19 @@ C 언어의 enum처럼 정수값을 가질 수도 있습니다.
 원시 값을 사용하고 싶다면 rawValue라는 프로퍼티를 사용하면 됩니다.
 
 case 별로 각각 다른 값을 가져야 합니다.
+
+
+### 📐 원시 값 예제
+
+정수 값 사용
+
+```swift
+enum Fruit: Int {
+    case apple = 0
+    case grape = 1
+    case peach		// 정수를 명시해주지 않아도 자동으로 1씩 증가합니다.
+}
+
+print("Fruit.peach.rawValue == \(Fruit.peach.rawValue)")
+// Fruit.peach.rawValue == 2
+```
