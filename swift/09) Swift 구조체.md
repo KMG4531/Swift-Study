@@ -116,8 +116,7 @@ Sample.typeMethod()	// type method
 // mutable.typeMethod()
 ```
 
-타입 프로퍼티 같은 경우 Sample이라는 구조체 타입 자체가 사용할 수 있는 
-프로퍼티와 메서드를 뜻합니다.
+타입 프로퍼티 같은 경우 Sample이라는 구조체 타입 자체가 사용할 수 있는 프로퍼티와 메서드를 뜻합니다.
 
 위에 있는 가변 인스턴스에서 설명한 mutable은 인스턴스에서 사용할 수 있는 프로퍼티와 메서드였는데 타입 프로퍼티를 보게 되시면 Sample이라는 타입 자체에서 사용할 수 있는 프로퍼티와 메서드가 됩니다.
 
@@ -178,6 +177,7 @@ static func selfIntroduce() {...} 은 앞에 static이 붙었으니 타입 메�
 func selfIntroduce() {...}은 인스턴스 메서드입니다. 
 
 selfIntroduce 안에 print("저는 \(self.class)반 \(name)입니다")을 만들어 줬는데 self는 인스턴스 자신을 지칭하며, 몇몇 경우는 제외하고 사용은 선택사항입니다.
+
 > self가 왜 쓰이는지 정확히 모르겠어서 야곰님 github에 가서 찾아봤더니 정확하게 설명해 주셔서 가져왔습니다.
 
 Student 타입이 자체적으로 사용할 수 있게 selfIntroduce()라고 타입 메서드를 만들어 줬기 때문에 "학생 타입입니다"라는 타입 메서드가 실행됩니다.
