@@ -187,7 +187,9 @@ mingu.name = "Mingu"
 mingu.class = "Swift"
 
 가변 인스턴스를 생성해 준 다음에 mingu.selfIntroduce()를 하게 되면 
+
 인스턴스 메서드로 구현된 func selfIntroduce() {...}메서드가 
+
 호출이 되어 "저는 Swift반 Mingu입니다"가 나옵니다.
 
 만약 가변 인스턴스가 아닌 불변 인스턴스로 생성을 해줬다면 프로퍼티 값도 변경 불가능하기 때문에 컴파일 오류가 발생합니다.
