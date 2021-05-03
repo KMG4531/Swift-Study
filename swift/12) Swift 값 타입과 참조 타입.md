@@ -32,3 +32,11 @@
 * 열거형 자체가 하나의 데이터 타입
   열거형의 case 하나하나 전부 하나의 유의미한 값으로 취급
 * 선언 키워드 - enum
+
+
+### 📐 Class/Struct/Enum
+밑에 있는 표를 보시면
+![표](https://images.velog.io/images/jkang4531/post/b92ddc55-1303-4595-8f62-13136cb9dcce/image.png)
+Class만 참조 타입이고 상속을 받을 수 있습니다.
+
+Extension 기능은 나중에 블로그로 정리하겠습니다 :)
