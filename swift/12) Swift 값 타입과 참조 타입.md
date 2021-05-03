@@ -61,3 +61,41 @@ Extension 기능은 나중에 블로그로 정리하겠습니다 :)
 참조 타입과 값 타입의 비교 코드입니다.
 
 코드 안에 주석으로 설명을 해놨으니 보시면 됩니다.
+
+
+```swift
+// 구조체 구현
+struct ValueType {
+    var property = 1
+}
+
+// 클래스 구현
+class ReferenceType {
+    var property = 1
+}
+
+// 첫 번째 상수 구조체 인스턴스
+let firstStructInstance = ValueType()
+// 두 번째 변수 구조체 인스턴스에 첫 번째 구조체 인스턴스를 복사합니다.
+var secondStructInstance = firstStructInstance
+// 두 번째 변수 구조체 프로퍼티 값 2로 수정하면
+secondStructInstance.property = 2
+
+// 첫 번째 인스턴스의 프로퍼티 값은 1이 나오게 되고, 두 번쨰 인스턴스의 값은 2가 나오게 됩니다.
+// 그 이유는 firstStructInstance가 똑같이 복사가 되어서 secondStructInstance에 들어가기 때문에
+// 똑같은 모양의 구조체가 하나 더 생성이 되어서 들어간 것 입니다.
+print("first struct instance property : \(firstStructInstance.property)")   // 1
+print("second struct instance prooerty : \(secondStructInstance.property)") // 2
+
+// 클래스 인스턴스 생성 후 참조 타입을 생성해줍니다.
+let firstClassReference = ReferenceType()
+// 첫 번째 클래스 인스턴스를 두 번째 인스턴스에 할당해줍니다.
+var secondClassReference = firstClassReference
+// 그 이후 프로퍼티 값을 2로 바꿔줬습니다.
+secondClassReference.property = 2
+
+// 첫 번째 참조 프로퍼티 값이 2로 변경이 되었습니다.
+// 하나의 인스턴스를 가지고 두 참조가 같은 인스턴스를 가리키기 때문에 참조값이 복사됩니다.
+print("first class reference property : \(firstClassReference.property)")   // 2
+print("second class reference property : \(secondClassReference.property)") // 2
+```
