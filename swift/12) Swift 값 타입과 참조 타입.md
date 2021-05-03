@@ -99,3 +99,10 @@ secondClassReference.property = 2
 print("first class reference property : \(firstClassReference.property)")   // 2
 print("second class reference property : \(secondClassReference.property)") // 2
 ```
+
+
+Swift 언어는 구조체, 열거형 사용을 선호하기 때문에 잘 알아두셔야 합니다.
+
+하지만 Apple 프레임워크는 대부분 클래스를 사용합니다.
+
+그러므로 Apple 프레임워크 사용시 구조체/클래스 선택은 우리의 몫 입니당:)
