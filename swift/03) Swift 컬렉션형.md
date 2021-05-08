@@ -32,6 +32,7 @@ integers.insert(90, at: 1)
 #### 결과
 
 ![1번](https://KMG4531.github.io/assets/images/2021-03-24/a.png)
+
 아무것도 없는 빈 값에 append를 사용하여 1과 100이 들어간 것을 알 수 있습니다.
 그 이후 insert를 이용해 90이라는 값이 at: 1의 자리에 들어간 것을 알 수 있죠.
 
