@@ -37,6 +37,7 @@ print("이름: \(person.0), 나이: \(person.1), 키: \(person.2), 몸무게: \(
 #### 튜플 요소 이름 지정
 
 ~~~swift
+
 // String, Int, Double, Double
 var person: (name: String, age: Int, height: Double, weight: Double) = ("Mingu", 21, 197.6, 63.2)
 
