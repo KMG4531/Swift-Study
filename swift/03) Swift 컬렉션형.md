@@ -56,6 +56,7 @@ integers.contains(99)
 #### 결과
 
 ![2](https://KMG4531.github.io/assets/images/2021-03-24/b.png)
+
 배열 안에 100이라는 값이 있으니 true, 99는 없으니 false를 나타내는 것을 알 수 있습니다.
 
 
