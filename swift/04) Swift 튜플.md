@@ -9,6 +9,7 @@
 #### 튜플의 기본
 
 ~~~swift
+
 // String, Int, Double, Double
 var person: (String, Int, Double, Double) = ("Mingu", 21, 197.6, 63.2)
 
