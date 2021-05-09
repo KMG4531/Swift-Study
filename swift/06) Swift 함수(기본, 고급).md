@@ -72,6 +72,7 @@ func 함수이름(매개변수1이름: 매개변수1타입, 매개변수2이름:
 ```
 
 *반환 값이 없는 함수 사용(Void 표기)*
+
 ```swift
 func printMyName(name: String) -> Void {
     print(name)
