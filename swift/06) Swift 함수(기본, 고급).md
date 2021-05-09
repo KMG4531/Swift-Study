@@ -90,6 +90,7 @@ func printYoutname(name: String) {
 
 
 두 가지의 방법으로 함수 만들어 준 것을 호출하면
+
 ```swift
 printMyName(name: "Mingu")
 printYoutname(name: "Ben")
