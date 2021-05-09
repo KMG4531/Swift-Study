@@ -51,6 +51,7 @@ sum(a: 6, b: 5)
 ```
 
 *호출 결과*
+
 ![](https://images.velog.io/images/jkang4531/post/dd127346-ae7c-47ab-b6a7-81c8df4c1c3e/image.png)
 
 함수를 호출을 해주고 a와 b에 값을 넣어주니 11이라는 값이 나오는 것을 알 수 있습니다.
