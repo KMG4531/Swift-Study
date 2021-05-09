@@ -45,6 +45,7 @@ func sum(a: Int, b: Int) -> Int {
 
 
 *함수에 대한 호출*
+
 ```swift
 sum(a: 6, b: 5)
 ```
