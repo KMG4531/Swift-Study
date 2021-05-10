@@ -107,7 +107,6 @@ var someUInt : UInt = 100	// 음수나 실수 "X" 😡
 ~~~
 
 
-
 ### Bool
 
 Bool 타입은 True, False 타입의 두 가지 값만 받을 수 있습니다.
