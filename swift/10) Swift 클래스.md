@@ -55,6 +55,7 @@ class Sample {
 클래스 사용법을 알아봅시다.
 
 밑에 있는 코드를 보시죠
+
 ```swift
 var mutableReference: Sample = Sample()
 
