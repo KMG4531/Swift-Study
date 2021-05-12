@@ -70,7 +70,8 @@ immutableReference.mutableProperty = 200
 // immutableReference = mutableReference
 ```
 
-class는 구조체와 다르게 mutable과 immutable을 let과 var로 사용한 인스턴스 
+class는 구조체와 다르게 mutable과 immutable을 let과 var로 사용한 인스턴스
+
 모두가 가변 프로퍼티 mutableProperty를 변경해 줄 수 있습니다.
 
 처음부터 불변 프로퍼티로 선언된 immutableProperty는 불가능합니다.
