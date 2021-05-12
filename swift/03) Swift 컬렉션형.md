@@ -13,6 +13,7 @@ var integers: Array<Int> = Array<Int>()
 ~~~
 
 안에 값이 아무것도 없는 integers라는 빈 Int 타입 Array를 만들어 주었습니다.
+
 그렇다면 빈 Array 안에 값을 넣어줄 수 있는 메서드를 알아야겠죠!
 값을 넣어주는 메서드인 append()와 insert(_, at:)가 있습니다.
 ***append()***는 맨 뒤에 값을 추가하는 메서드이고, ***insert(_, at:)***는 중간에 값을 추가해주고 싶을 때 사용하는 메서드 입니다.
