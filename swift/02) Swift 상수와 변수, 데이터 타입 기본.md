@@ -120,6 +120,7 @@ someBool = 0
 someBool = 1
 ```
 
+
 #### 결과
 
 ![3번](https://KMG4531.github.io/assets/images/2021-03-23/c.png)
