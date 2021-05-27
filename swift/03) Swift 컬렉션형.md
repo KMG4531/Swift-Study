@@ -207,4 +207,3 @@ let subtracting: Set<Int> = setA.subtracting(setB)          // subtracting는 �
 ![7](https://KMG4531.github.io/assets/images/2021-03-24/g.png)
 합집합부터 차집합까지 나온 것을 알 수 있습니다.
 
-
