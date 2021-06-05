@@ -37,7 +37,7 @@ var 이름 = 값
 let conatant : String = "차후 변경 불가 값"
 var variable : String = "변경 가능"
 ~~~
-
+ 
 상수와 변수의 값을 바꿔주겠습니다.
 
 ~~~swift
