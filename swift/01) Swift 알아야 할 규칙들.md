@@ -6,7 +6,7 @@ Swift 언어는 기본적으로 Camel case를 사용합니다. 즉 **대소문�
   ex) someVariableName
 
   * Upper Camel Case: 클래스, 구조체, 익스텐션, 프로토콜, 열거형 이름은 타입의 이름이기 때문에 첫 글자를 대문자로 사용합니다.
-  ex) Point, Work
+  ex) Point, Work 
 
 
 ## 2. 콘솔 로그
