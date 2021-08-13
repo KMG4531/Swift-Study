@@ -12,7 +12,7 @@
 먼저 Optional Binding부터 알아봅시다.
 
 ### 📐 Optional Binding
-
+ 
 Optional Binding 방법은nil 체크를 함과 동시에 안전하게 값을 추출할 수 있는 값입니다.
 
 값이 있는지 없는지 확인을한 후후 값이 있으면 값을 빼오고 값이 없으면 지나치는 방식입니다.
