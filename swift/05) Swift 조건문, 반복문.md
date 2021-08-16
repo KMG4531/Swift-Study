@@ -15,7 +15,7 @@ Swift에서는 ()를 사용하지 않아도 된다는게 큰 장점입니다.
 
 ~~~swift
 if condition {
-    code
+    code 
 } else if condition {
     statements
 } else {
