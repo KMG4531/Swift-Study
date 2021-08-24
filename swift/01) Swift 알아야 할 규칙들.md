@@ -4,7 +4,7 @@ Swift 언어는 기본적으로 Camel case를 사용합니다. 즉 **대소문�
 
   * Lower Camel Case: 함수, 메서드, 인스턴스 이름은 첫 글자를 소문자로 사용하는 소문자 카멜케이스를 사용합니다.
   ex) someVariableName
-
+ 
   * Upper Camel Case: 클래스, 구조체, 익스텐션, 프로토콜, 열거형 이름은 타입의 이름이기 때문에 첫 글자를 대문자로 사용합니다.
   ex) Point, Work 
  
