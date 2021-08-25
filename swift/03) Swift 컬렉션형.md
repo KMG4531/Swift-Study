@@ -8,7 +8,7 @@ Swift는 많은 수의 데이터를 묶어서 저장하고 관리할 수 있는 
 
 ##### 먼저 빈 Int 타입의 Array를 생성해 주겠습니다.
 
-~~~swift
+~~~swift 
 var integers: Array<Int> = Array<Int>() 
 ~~~
 
